@@ -1,0 +1,296 @@
+/* Global  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  display: block;
+  margin-right: 6px;
+}
+
+li {
+  list-style: none;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border-bottom: 1px solid rgba(23, 54, 88, 0.4);
+  padding-right: 100px;
+
+  /* border-bottom là cú pháp để khởi tạo 1 đường viền gạch chân bên dưới thẻ text thay vì dùng HR */
+}
+
+p {
+  color: white;
+  font-size: 14px;
+}
+
+/* .container{
+  max-width: 1140px;
+  margin: 0 auto;
+} */
+
+/* header  */
+
+.banner {
+  background-image: url(../img/error.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.47);
+  /* line-height: 50px; */
+}
+
+.error_view {
+  padding: 90px 70px;
+}
+
+.banner__error1 h2 {
+  font-size: 160px;
+  color: white;
+  font-weight: 600;
+}
+
+.banner__error2 h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.banner__gohome i {
+  font-size: 18px;
+  padding-right: 5px;
+}
+
+.banner__gohome {
+  padding: 50px 0;
+}
+
+.banner__gohome a:hover {
+  color: #ff6e65;
+}
+
+.banner__gohome a {
+  transition: all 0.5s;
+  padding: 0 0;
+}
+
+#search__input {
+  background: #ffffff;
+}
+
+#search__input #search__text {
+  border: none;
+  outline: none;
+  padding: 30px 45px;
+}
+
+.search__all button{
+  position:absolute;
+  
+}
+
+.search__box{
+  position:relative;
+}
+
+.search__all input{
+  padding:10px 200px 10px 10px;
+  border:none;
+  border-radius: 30px 0 0 30px;
+  
+}
+
+.search__all button{
+  padding:10px 10px;
+  border:none;
+  border-radius: 0 30px 30px 0;
+  background-color: white;
+}
+
+.search__all button i{
+  color:#ff6e65;
+}
+
+/* .banner__input form input{
+    padding:10px 250px 10px 20px;
+    border:none;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    overflow:hidden
+} */
+
+/* .banner__input input{
+    position:relative;
+}
+
+.banner__input .search-box__btn{
+  position:absolute;
+
+} */
+
+/* FOOTER */
+
+footer {
+  background-color: #060e1f;
+  /* margin-top:100px; */
+}
+
+/* FOOTER MID  */
+
+.footer__mid {
+  background-color: #060e1f;
+  padding: 300px 0 60px 0;
+}
+
+.footer__item ul {
+  padding: 0;
+}
+
+.footer__item a {
+  padding-right: 90px;
+}
+
+.footer__item i {
+  display: inline-block;
+}
+
+.footer__item ul li {
+  margin-bottom: 10px;
+}
+
+.icon__footer li {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.06);
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+
+.icon__footer li:hover {
+  color: white;
+  background: #0d369f62;
+}
+
+.icon__footer li {
+  line-height: 35px;
+  padding-left: 8px;
+  color: white;
+  background: #040a17c0;
+  font-size: 20px;
+}
+
+/* footer__suv */
+
+.footer__sub {
+  background-color: #040a17;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer__sub a {
+  display: inline;
+  color: white;
+}
+
+.footer__sub a:hover {
+  border-bottom: 1px solid white;
+}
+
+.footer__sub p {
+  color: gray;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.services__view {
+  padding: 30px 30px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  position:absolute;
+  top: 0px;
+  right: 306px;
+}
+
+
+.me__bau {
+  position: relative;
+}
+
+
+.white__zone {
+  padding: 50px 50px;
+}
+
+.services__view p {
+  color: gray;
+  font-size: 16px;
+}
+
+.ser__right {
+  margin: 20px 20px;
+}
+
+.ser__right input {
+  padding: 15px 100px 15px 20px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.427);
+}
+
+.ser__right button {
+  border-radius: 6px;
+  padding: 15px 20px;
+  border-radius: 0 8px 8px 0;
+  background-color: #254aa8;
+  border: none;
+  color: white;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+
+/* BACK TO TOP */
+.backtotop {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.backtotop i {
+  color: rgb(255, 255, 255);
+  border: 1px solid #254aa8;
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #254aa8;
+}
+
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
+}
